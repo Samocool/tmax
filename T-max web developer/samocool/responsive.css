@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(34, 218, 89, 0.863);
+    height: 65px;
+    z-index: 100;
+}
+
+.header .nav-bar{
+    display: flex;
+
+}
+.header .nav-bar a{
+    flex: 1;
+    text-align: center;
+    font-size: 22px;
+    line-height: 65px;
+    color: aliceblue;
+}
+.header .nav-bar span{
+    text-transform: uppercase;
+}
+
+.header .nav-bar a:hover{
+    filter: brightness(0.8);
+    color: rgb(37, 80, 196);
+}
+.header .nav-bar a:nth-child(1){
+    background-color: blueviolet;
+}
+.header .nav-bar a:nth-child(2){
+    background-color: rgb(129, 235, 199);
+}
+.header .nav-bar a:nth-child(3){
+    background-color: rgb(141, 27, 126);
+}
+.header .nav-bar a:nth-child(4){
+    background-color: rgb(5, 41, 75);
+}
+.header .nav-bar a:nth-child(5){
+    background-color: rgb(197, 177, 216);
+}
+.container{
+    display: flex;
+    width: 500%;
+    height: 100vh;
+
+}
+.container .main-section{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.container .main-section:nth-child(1){
+    background-color: blue;
+}
+.container .main-section:nth-child(2){
+    background-color: rgb(22, 43, 36);
+}
+.container .main-section:nth-child(3){
+    background-color: rgb(94, 153, 60);
+}
+.container .main-section:nth-child(4){
+    background-color: rgb(193, 196, 45);
+}
+.container .main-section:nth-child(5){
+    background-color: rgb(37, 28, 168);
+}
+
+/* ===================home section================ */
+.home-s{ 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}

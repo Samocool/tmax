@@ -1,0 +1,26 @@
+#Julius{
+    width: 200px;
+    height: 60px;
+    background-color: aqua;
+    /* boder: 2px;
+    border-color: red;
+    border-style: dashed; */
+    /* border-left: 2px; solid green;
+    border-right: 2px double red;
+    border-top: 2px dotted black;
+    border-bottom:2px dashed #100; */
+    border: 4px solid;
+    border: none;
+}
+
+#background{
+    color: aliceblue;
+    height: 1200px;
+    width: 1200px;
+    border: 2px solid brown;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://guardian.ng/wp-content/uploads/2019/12/Ikeja-Electric.jpg);
+    text-align: center;
+    background-size: cover;
+}

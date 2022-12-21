@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    background-color: rgb(140, 238, 238);
+}
+.sade{
+    text-align: center;
+    font-size: 36px;
+    padding: 22px 0px;
+    color: yellowgreen;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap:15px ;
+    padding: 20px 0px; 
+}
+.card-container .card{
+    padding: 10px;
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+    background: rgb(202, 233, 142);
+    box-shadow: 5px 5px rgb(235, 63, 11);
+    text-align: center;
+    
+}
+.card-container .card .card-icon{
+    padding-top: 10px;
+}
+.card-icon{
+    margin: 10px 0px;
+    font-size: 32px;
+    color: yellowgreen;
+}
+.card-title{
+    color: yellowgreen;
+    font-size: 21;
+    margin-top: 5px;
+}
+.card-container .card p{
+    font-size: 14px;
+    color: yellowgreen;
+    padding: 10px;
+}
+.card-container .card a{
+    color: blue;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    padding: 10px 0px;
+}
+.card-container .card a:hover{
+    color: brown;
+}
+span{
+    /* color: red;  */
+}
